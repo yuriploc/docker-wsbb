@@ -2,7 +2,7 @@
 
 # Base docker image
 FROM debian:stretch-slim
-LABEL maintainer "Fabio Rodrigues Ribeiro <farribeiro@gmail.com>"
+LABEL maintainer "Yuri Oliveira <yurioli@protonmail.com>"
 
 ENV USER=ff
 ENV GUID=1000
@@ -56,7 +56,7 @@ RUN apt-get update && \
 	&& chown -R ${GUID}:${GUID} /home/${USER} \
 	&& echo 'ff ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers \
 	&& echo 'Defaults !requiretty' >> /etc/sudoers \
-	&& echo root:wscef | chpasswd \
+	&& echo root:wsbb | chpasswd \
 	# Cleanup
 	&& apt remove --purge -y wget \
 	&& apt autoremove -y \
