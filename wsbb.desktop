@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=wsbb
+GenericName=Warsaw and Firefox in Docker
+Comment=Access Banco do Brasil and Caixa through this image
+Exec=docker start -a banco-do-brasil-firefox
+Terminal=true
+Type=Application
