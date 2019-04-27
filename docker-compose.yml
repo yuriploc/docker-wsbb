@@ -1,8 +1,8 @@
 version: '3'
 services:
-  wsbb:
-    container_name: wsbb
-    image: yuriploc/wsbb-docker
+  banco-do-brasil-firefox:
+    container_name: banco-do-brasil-firefox
+    image: matsya/banco-do-brasil-firefox
     build: .
     devices:
       - /dev/snd:/dev/snd

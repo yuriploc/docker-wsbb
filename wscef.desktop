@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=MyScript
-GenericName=A descriptive name
-Comment=Some description about your script
-Exec=docker start -a wsbb
-Terminal=true
-Type=Application
